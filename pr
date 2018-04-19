@@ -10,4 +10,5 @@ function pr {
   currentbranch="${currentbranch/\//\/}"
   command=`git remote -v | grep origin | grep fetch | awk '{print $2}' | sed "s/\.git/\/compare\/${base}...${currentbranch}\?expand\=1/g" | sed 's/git\@github\.com\:/https\:\/\/github\.com\//g'`
   echo $command
+  open $command
 }
