@@ -11,6 +11,8 @@ pr <base-branch>
 
 # Installation
 
+## Using Zsh
+
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/nicbotes/zsh-pull-request/master/install.sh)"
 ```
@@ -20,7 +22,16 @@ reference the `pr` function in your `~/.zshrc`
 echo \"source ~/.oh-my-zsh/functions/pr\" >> ~/.zshrc
 ```
 
-if you are using another shell
+## Using Bash
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/nicbotes/zsh-pull-request/master/bash-install.sh)"
+```
+reference the `pr` function in your `~/.bashrc`
+
+```
+echo \"source ~/.oh-my-zsh/functions/pr\" >> ~/.bashrc
+```
 
 # Requirements
 
@@ -29,6 +40,7 @@ if you are using another shell
 
 # Uninstalling
 
+For Zsh
 ```
 rm ~/.oh-my-zsh/completions/_pr
 rm ~/.oh-my-zsh/functions/pr
@@ -36,21 +48,10 @@ rm ~/.oh-my-zsh/functions/pr
 
 and remove the reference to the `pr` function in your `~/.zshrc`
 
-# Another Shell?
-
-Make sure your `echo $fpath` has the "completions" and "functions" in it.
-
+For Bash
 ```
-echo $fpath
+rm ~/.custom-shell-commands/completions/_pr
+rm ~/.custom-shell-commands/functions/pr
 ```
 
-```
-completions_path=~/.custom/completions
-functions_path=~/.custom/functions
-mkdir -p $completions_path
-fpath=($completions_path $functions_path $fpath)
-```
-
-and copy the `pr` file to functions.
-and copy the `_pr` file to completions.
-add to `~/.bashrc`
+and remove the reference to the `pr` function in your `~/.bashrc`
