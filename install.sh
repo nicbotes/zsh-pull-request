@@ -20,8 +20,8 @@ cp _pr $zshcompletions
 cd /tmp
 rm -rf $destination
 
-echo "installed.\n"
-echo "please run the following and open a new terminal"
-echo "echo \"source ~/.oh-my-zsh/functions/pr\" >> ~/.zshrc"
-echo "please use"
+echo "\ninstallation complete\!\n"
+echo "please run the following\n"
+echo "   echo \"source ~/.oh-my-zsh/functions/pr\" >> ~/.zshrc"
+echo "\nIn a new terminal use:"
 echo "$ pr <base-branch>"
