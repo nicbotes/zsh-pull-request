@@ -1,0 +1,5 @@
+#compdef pr
+
+branches=`\git branch -l | grep -v '*' | awk '{print $1}'`
+
+_arguments "1: :($branches)"
