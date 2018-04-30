@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 zshcompletions=~/.oh-my-zsh/completions
 zshfunctions=~/.oh-my-zsh/functions
