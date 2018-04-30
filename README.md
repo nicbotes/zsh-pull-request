@@ -14,7 +14,7 @@ pr <base-branch>
 ## Using Zsh
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/nicbotes/zsh-pull-request/master/install.sh)"
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/nicbotes/zsh-pull-request/master/install.sh)"
 ```
 reference the `pr` function in your `~/.zshrc`
 
@@ -25,7 +25,7 @@ echo \"source ~/.oh-my-zsh/functions/pr\" >> ~/.zshrc
 ## Using Bash
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/nicbotes/zsh-pull-request/master/bash-install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/nicbotes/zsh-pull-request/master/bash-install.sh)"
 ```
 reference the `pr` function in your `~/.bashrc`
 

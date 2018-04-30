@@ -10,7 +10,7 @@ source=git@github.com:nicbotes/zsh-pull-request.git
 destination=zsh-pull-request
 
 cd /tmp
-git clone $source $destination
+git clone $source $destination &>/dev/null
 
 cd $destination
 
@@ -20,7 +20,7 @@ cp _pr $zshcompletions
 cd /tmp
 rm -rf $destination
 
-echo "\ninstallation complete\!\n"
+echo "\ninstallation complete! \n"
 echo "please run the following\n"
 echo "   echo \"source ~/.oh-my-zsh/functions/pr\" >> ~/.zshrc"
 echo "\nIn a new terminal use:"

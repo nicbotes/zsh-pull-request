@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 shcompletions=~/.custom-shell-commands/completions
 shfunctions=~/.custom-shell-commands/functions
