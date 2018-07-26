@@ -9,6 +9,8 @@ Hitting `TAB` autocompletes the available base branches (searches locally only).
 pr <base-branch>
 ```
 
+![pr](https://user-images.githubusercontent.com/3964065/43251340-ed89d10e-90bf-11e8-98b8-e456fe497e78.gif)
+
 # Installation
 
 ## Using Zsh
