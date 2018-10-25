@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.io/nicbotes/zsh-pull-request.svg)](http://hits.dwyl.io/nicbotes/zsh-pull-request)
+
 # zsh-pull-request
 simple command to create a pull request on github
 
